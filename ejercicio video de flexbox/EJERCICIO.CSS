@@ -1,0 +1,100 @@
+.body{
+    background: #f111f1;
+}
+.contenedor{
+    width: 500px;
+    height: 200px;
+    background: rgb(64, 226, 238);
+    padding: 10px;
+    border: 10px solid #1d05ee;
+    margin: 20px;
+
+/* ESTO ES LO PRIMERO PARA PODER URASR FLEXBOX*/
+display: flex;
+/* CON ESTO PONEMOS LOS ELEMENTOS EN UNA ESQUINA O EN LA OTRA
+TIENE CUATRO VARIABLES:
+ROW, ROW -REVERSE, COLUM, COLUM-REVERSE*/
+flex-direction: row;
+/*ESTA PROPIEDAD SIRVE PARA SI UN ELEMENTO ES MUY GRANDE LOS ACOMODA DEBAJO Y LOS ALINEA 
+TIENE WRAP, NO-WRAP, WRAP-REVERSE, */
+flex-wrap:nowrap;
+/* este es un atajo para combianar direccion y wrap.
+flex-flow:row wrap;*/
+/*este es elemento principal para alinear los elementosende forma horizontal de 16 formas diferentes*/
+justify-content:flex-start;
+/*este es elemento principal para alinear los elementosende forma vertical de 8 formas diferentes*/
+/*align-items: center;*/
+/* si tenemos dos filas no nos irve align-items hayq ue usar align-content tiene 9 formas diferentes*/
+/*align-content: center;*/
+
+}
+/*"ELEMENTOS INICIALES SIN FLEX OCUPAN EL ANCHO DE LA CAJA"
+.elemento{
+    color: #fff;
+    margin: 5px;
+    background: #e67E22;
+    text-align: center;
+}*/
+
+/* "ELEMENTOS CON UN WIDTH DE 50, SE ALINEAN A LA IZQUIERDA Y SE ACHIQUITAN
+.elemento{
+    color: #fff;
+    width: 50px;
+    margin: 5px;
+    background: #e67E22;
+    text-align: center;
+    }*/
+
+    /* "ELEMENTO CON EL PRIMER FLEXBOX HAY QUE PONER EN EL CONTENEDOR DISPLAY: FLEX , LOS ELEMENTOS SE POENE ALARGADOS*/
+    /*.elemento{
+        color: #fff;
+        width: 50px;
+        margin: 5px;
+        background: #e67E22;
+        text-align: center;
+        }*/
+/* ESGTE ELEMENTO SUBIO A 200 PARA DEMOSTRAR QUE flex-wrap: wrap FUNCIONA ACOMODANDO LOS ELEMENTOS NO IMPORTA QUE TAN GRANDE SEAN
+        .elemento{
+            color: #fff;
+            width: 200px;
+            height: 50px;
+            margin: 5px;
+            background: #e67E22;
+            text-align: center;
+            }*/
+
+            .elemento{
+                /*flex-grow:1 ;*/
+                /*flex-shrink: 1;*/
+                flex: 2;
+                order: 2;
+                color: rgb(240, 236, 15);
+                width: 50px;
+                height: 50px;
+                margin: 5px;
+                background: #fd0101;
+                text-align: center ;
+                
+                }
+/* no usar en los elementos width sino flex-basis, sirve para el responsive*/
+            .elemento3 {
+            /* esta propiedad es para agrandar un solo elemento mas que lso otros*/
+                flex-grow: 3;
+                align-self: flex-end;
+            }
+            /* esta propiedad es para achicar un solo elemento mas que los otros*/
+            .elemento2 { 
+            flex-grow: 1; 
+            }
+        /*esta es la forma rapida de copiarlas*/
+            /* flex: 2;*/
+
+           /* esat rporiedas order sisrve para poner el elemento especificado antes de los demas*/    
+           /*.elemento2 {
+               order: 1;
+            }*/
+            /*es alinear un elemento de forma independiente, ademas de poder aplicar las demas propiedades solo a el elmento son 5 formas*/  
+             /* .elemento3 {
+                   align-self: flex-end;
+                }*/
+            } :nth-child()
