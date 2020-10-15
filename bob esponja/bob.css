@@ -214,10 +214,6 @@
 	background:#fff;
 	top:-25px;
 	border:5px solid #000;
-	-moz-transform: rotate(30deg);
-	-webkit-transform: rotate(30deg);
-	-o-transform: rotate(30deg);
-	-ms-transform: rotate(30deg);
 	transform: rotate(30deg);
 }
  
@@ -227,16 +223,11 @@
  
 .cuello.segundo {
 	left:180px;
-	-moz-transform: rotate(-30deg);
-	-webkit-transform: rotate(-30deg);
-	-o-transform: rotate(-30deg);
-	-ms-transform: rotate(-30deg);
 	transform: rotate(-30deg);
 }
  
 .corbata {
 }
- 
 .cuello_corbata {
 	width:40px;
 	height:40px;
@@ -246,10 +237,6 @@
 	left:130px;
 	bottom:30px;
 	z-index:50;
-	-moz-transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
  
@@ -262,10 +249,6 @@
 	left:123px;
 	bottom:0px;
 	z-index:50;
-	-moz-transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 
