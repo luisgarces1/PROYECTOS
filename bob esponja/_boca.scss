@@ -1,0 +1,102 @@
+.boca {
+    width: 200px;
+    height: 80px;
+    background: transparent;
+    position: absolute;
+    top: 128px;
+    left: 50px;
+    border-radius: 50%;
+    border-bottom: 5px solid #000;
+    z-index: 10;
+  }
+  
+  .dientes {
+    position: relative;
+    top: 63px;
+    left: 65px;
+  }
+  
+  .diente {
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    border: 5px solid #000;
+    display: inline-block;
+  }
+  
+  .mejilla {
+    width: 30px;
+    height: 20px;
+    background: transparent;
+    position: absolute;
+    top: 30px;
+    border: 3px solid #F1592A;
+    border-bottom: 5px transparent;
+    border-radius: 50% 50% 20% 20%;
+  
+    &.primera {
+      left: -15px;
+    }
+  }
+  
+  .peca {
+    &.primera {
+      position: relative;
+      background: #F00200;
+      top: 36px;
+      left: 7px;
+      width: 3px;
+      height: 3px;
+    }
+  
+    &.segunda {
+      position: relative;
+      background: #F00200;
+      top: 38px;
+      left: 1px;
+      width: 3px;
+      height: 3px;
+    }
+  
+    &.tercera {
+      position: relative;
+      background: #f82e0b;
+      top: 31px;
+      left: -7px;
+      width: 3px;
+      height: 3px;
+    }
+  }
+  
+  .mejilla.segunda {
+    left: 179px;
+  }
+  
+  .peca {
+    &.cuarta {
+      position: relative;
+      background: #F00200;
+      top: 30px;
+      left: 187px;
+      width: 3px;
+      height: 3px;
+    }
+  
+    &.quinta {
+      position: relative;
+      background: #F00200;
+      top: 26px;
+      left: 204px;
+      width: 3px;
+      height: 3px;
+    }
+  
+    &.sexta {
+      position: relative;
+      background: #f82e0b;
+      top: 28px;
+      left: 197px;
+      width: 3px;
+      height: 3px;
+    }
+  }
