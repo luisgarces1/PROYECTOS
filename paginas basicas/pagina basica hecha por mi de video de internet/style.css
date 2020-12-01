@@ -1,7 +1,7 @@
 * {
         box-sizing: border-box;
-margin: 0;
-padding: 0;
+        margin: 0;
+        padding: 0;
 
 }
 
@@ -11,9 +11,10 @@ body {
 }
 
 #container{
-        width: 1250px;
+        width: 98%;
         margin: 0 auto;
         border: 1px solid black;
+        max-width: 1400px;
 }
 
 header{
@@ -46,10 +47,12 @@ margin: 10px;
 }
 #content {
         float: left;
-        width: calc(80% - 80px);
+        width: 80% ;
         min-height: 500px;
         background: green;
         padding: 40px;
+        box-sizing: border-box;
+
 }
 .article {
         color: rgb(243, 245, 241);
@@ -70,12 +73,13 @@ font-size: 25px;
 }
 aside{
         float: left;
-        width: calc(20% - 20px);
+        width:20% ;
         background: orange;
         min-height: 560px;
         padding-left: 10px;
         padding-right: 10px; 
         padding-top: 20px ;
+        box-sizing: border-box;
 }
 footer {
         background: black;
@@ -85,6 +89,26 @@ footer {
         line-height: 50px;
 }
 
+@media screen and (max-width: 800px) {
+
+        body {
+                background: chartreuse;
+        }
+#content {
+        width: 100%;
+}
+aside {
+        width: 100%;
+}
 
 
+}
+@media screen and (max-width: 400px) {
 
+        body {
+                background: rgb(47, 0, 255);
+        }
+        #content{
+               width: 100%; 
+        } 
+}

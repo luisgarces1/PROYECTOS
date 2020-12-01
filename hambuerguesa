@@ -1,0 +1,348 @@
+[33mcommit 601bdffda5f16a36787b805453b323ba05cb138a[m[33m ([m[1;36mHEAD -> [m[1;32mbranch-1[m[33m)[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Tue Dec 1 12:38:36 2020 -0500
+
+    canbios
+
+[33mcommit 30014fc2104fc956c294d8f6e285b99c60770a67[m
+Merge: 0d0353c bfa39a0
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 14:27:10 2020 -0500
+
+    Merge pull request #18 from luisgarces1/master
+    
+    Merge pull request #17 from luisgarces1/branch-1
+
+[33mcommit bfa39a0eb713fc2553eb7007ca70ef886ebf8fe0[m
+Merge: 4212d00 0d0353c
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 12:30:39 2020 -0500
+
+    Merge pull request #17 from luisgarces1/branch-1
+    
+    Merge pull request #16 from luisgarces1/master
+
+[33mcommit 0d0353c6dd1db3637ac37707509b82b4b8a71692[m
+Merge: 3ff0b21 4212d00
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 12:28:48 2020 -0500
+
+    Merge pull request #16 from luisgarces1/master
+    
+    ni idea
+
+[33mcommit 4212d005390d0da5c8efbf78e67d04f78b22aee1[m
+Merge: 823d0ee 3ff0b21
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 12:25:21 2020 -0500
+
+    Merge pull request #15 from luisgarces1/branch-1
+    
+    Branch 1
+
+[33mcommit 3ff0b211dcf968ff82cf6c60f889ef53b7b6e84f[m
+Merge: f21a072 267d343
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 12:24:39 2020 -0500
+
+    Merge branch 'branch-1' of https://github.com/luisgarces1/PROYECTOS into branch-1
+
+[33mcommit f21a0726abd06603011b8ae42acbc0d8842e9a79[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 12:24:33 2020 -0500
+
+    ejemplo de indice
+
+[33mcommit 823d0eee3ce6e5c51cb3ea71e125634eba01a0c4[m
+Merge: 4f3b7a0 267d343
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 11:56:58 2020 -0500
+
+    Merge pull request #14 from luisgarces1/branch-1
+    
+    Merge pull request #13 from luisgarces1/master
+
+[33mcommit 267d34363a44544d6fdf59a6e37e0c07cbb370d0[m
+Merge: febfb19 4f3b7a0
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 11:54:07 2020 -0500
+
+    Merge pull request #13 from luisgarces1/master
+    
+    nivelando loas dos ramas
+
+[33mcommit 4f3b7a0181ba5d3393351871f3e5c8510fbcfed5[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 11:43:45 2020 -0500
+
+    mejoras a la carpeta
+
+[33mcommit 777abfe215f555e642ef92e8660a7a0b98f526b8[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 11:27:34 2020 -0500
+
+    paginas basicas de antioquia
+
+[33mcommit b02c6a2373e35e17068b2efd9ca436a476e25669[m
+Merge: f03b327 febfb19
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 09:47:47 2020 -0500
+
+    Merge pull request #12 from luisgarces1/branch-1
+    
+    Branch 1
+
+[33mcommit febfb19a81ef9cc8911c4ddf51acf30575be5b9e[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 09:45:13 2020 -0500
+
+    pagina principal hecha por mi
+    
+    pagina hecha pro mi con ayuda de un video de internet
+
+[33mcommit c01a75835cb2ade8060190f1854730649b07ce79[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Nov 28 09:40:22 2020 -0500
+
+    ni idea
+    
+    ni idea
+
+[33mcommit b42e746145d7f084b83d72c6176a9b8faa06e093[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Nov 25 15:18:03 2020 -0500
+
+    Create .gitignore
+
+[33mcommit 63bad8606b449c5b0793aa45c83866950a643dab[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Nov 25 15:16:29 2020 -0500
+
+    Update Contexto estratégico.xlsx
+
+[33mcommit f03b3277a6506fb9c98b248048b2e1d6091237e5[m
+Merge: a78fd8a 9f085a5
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Nov 25 15:13:46 2020 -0500
+
+    Merge pull request #11 from luisgarces1/branch-1
+    
+    Branch 1
+
+[33mcommit 9f085a5872cbc7289d5924edf60e7e6814ab6a84[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Nov 25 15:11:47 2020 -0500
+
+    Update Contexto estratégico.xlsx
+
+[33mcommit 955ca9fa684df98f1881be2aaca4901a359f17fe[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Nov 25 15:10:17 2020 -0500
+
+    Create Contexto estratégico.xlsx
+
+[33mcommit a78fd8a90d7ee32f866a50343f67d00071a4f6a7[m
+Merge: ace47a9 bb7e90b
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sun Oct 18 21:36:30 2020 -0500
+
+    Merge pull request #10 from luisgarces1/branch-1
+    
+    ensayos
+
+[33mcommit bb7e90bb612d6e02ce8bcfeb69bad2bf977ba406[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sun Oct 18 21:36:00 2020 -0500
+
+    ensayos
+
+[33mcommit ace47a93ac2de95afb3726b4d9bda1d18b181fe6[m
+Merge: 6ac401d fcb1b09
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sun Oct 18 20:43:03 2020 -0500
+
+    Merge pull request #9 from luisgarces1/branch-1
+    
+    cabezote con flexbox
+
+[33mcommit fcb1b094b8f6f2886ade889f8a9daa61be61c47e[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sun Oct 18 20:41:07 2020 -0500
+
+    cabezote con flexbox
+    
+    carpeta donde esta el cabezote con flexbox
+
+[33mcommit 6ac401df9255e791c627c4c2f661f5ef422be79a[m
+Merge: 05cd798 47a200e
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Oct 17 09:58:28 2020 -0500
+
+    Merge pull request #8 from luisgarces1/branch-1
+    
+    ensayo de direccion de corbata
+
+[33mcommit 47a200ee6356d36d7fd4d18d861b4729272d658b[m
+Merge: e96ce8a 60ad92d
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Oct 17 09:56:34 2020 -0500
+
+    Merge branch 'branch-1' of https://github.com/luisgarces1/PROYECTOS into branch-1
+
+[33mcommit e96ce8a5c0644e8558655ec60c29f1efcac10de7[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Sat Oct 17 09:53:09 2020 -0500
+
+    ensayos de direccion de corbata
+
+[33mcommit 60ad92d40ac5c07ad23cea454b70929211e9bc40[m
+Merge: 83e66fe 05cd798
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Thu Oct 15 18:29:18 2020 -0500
+
+    Merge pull request #7 from luisgarces1/master
+    
+    cambio de idioma
+
+[33mcommit 83e66fee0f0eedf24017c8f638e3f394f3616f4d[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Thu Oct 15 18:25:28 2020 -0500
+
+    cambio de idioma
+    
+    cambio de idioma en el proyecto a entregar a acamica
+
+[33mcommit 05cd798e3a33f81531d1042a9cacffca7d595ca5[m
+Merge: 7cd4d7b 6f9a98e
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Thu Oct 15 18:13:46 2020 -0500
+
+    Merge pull request #6 from luisgarces1/branch-1
+    
+    subida de tres de carpetas
+
+[33mcommit 6f9a98e0e291b513ac5b6a3b566aa912a389a470[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Thu Oct 15 18:12:35 2020 -0500
+
+    menus hamburguesa
+
+[33mcommit 0d138ff66370437b320645c5f3d46eb357709850[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Thu Oct 15 18:11:47 2020 -0500
+
+    tercera carpeta subida
+    
+    tercera carpeta subida
+
+[33mcommit 7cd4d7b9a86cc1cd6d93288e115ad80d92aae11a[m
+Merge: 50bd3f3 9f7b00b
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 20:33:18 2020 -0500
+
+    Merge pull request #5 from luisgarces1/branch-1
+    
+    llevar el cuerpo que no tenia al master
+
+[33mcommit 9f7b00b57337342896de3edc43f50a77d4d9bfbf[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 20:29:40 2020 -0500
+
+    aplicacion de cuerpo
+
+[33mcommit e0291d1f2f2b1fe55eda141dfc6d554e90fc8ddf[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 20:25:11 2020 -0500
+
+    creacion en el visual de los archivos y correcion del error en corbata
+
+[33mcommit 50bd3f3f15e6e4c89455a3eba2f04c6859991e0e[m
+Merge: fc1e373 4f5a99d
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 20:00:08 2020 -0500
+
+    Merge pull request #4 from luisgarces1/branch-1
+    
+    creacion de archivo .css
+
+[33mcommit 4f5a99d35fae87abf613ed07c750e5bb0c3a17cb[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 19:58:09 2020 -0500
+
+    creacion de archivo .css
+
+[33mcommit fc1e373e1f6b634969bad5f5bf323341da81ebec[m
+Merge: 7f8d3ee 940c8f6
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 19:21:33 2020 -0500
+
+    Merge pull request #3 from luisgarces1/branch-1
+    
+    cambio de archivo
+
+[33mcommit 940c8f6150c27d58b105c90354a9448a9c4d5e10[m
+Merge: bc9b49f f4c117b
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 19:19:10 2020 -0500
+
+    Merge branch 'branch-1' of https://github.com/luisgarces1/PROYECTOS into branch-1
+
+[33mcommit f4c117be9e40c7ea7b3053d5331347e470c66ef6[m
+Merge: b35f75b 7f8d3ee
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 19:18:47 2020 -0500
+
+    Merge pull request #2 from luisgarces1/master
+    
+    Merge pull request #1 from luisgarces1/branch-1
+
+[33mcommit bc9b49f9dca1bba0af6d0c22f522aa4700ad785c[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 19:16:15 2020 -0500
+
+    cambio de nombre y link
+    
+    cambios en el css del nombre y en el link del html para que se conecten de nuevo
+
+[33mcommit 7f8d3ee743b72ee6703e1f500c0bc015f6339cef[m
+Merge: 9a0ebf9 b35f75b
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 19:12:15 2020 -0500
+
+    Merge pull request #1 from luisgarces1/branch-1
+    
+    primer cambio entre el banch-1 y master
+
+[33mcommit b35f75b812ab3fde1669c560430b9b10aa63a906[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 19:09:07 2020 -0500
+
+    creacion de los archivos adicionales de scss
+
+[33mcommit f7e818e83f9ac21af4e8adbcdda637f0c017c88e[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 18:47:28 2020 -0500
+
+    creacion de style.css
+
+[33mcommit 9a0ebf9074d931d6a5d2710ce294fe7e8509db19[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 18:32:53 2020 -0500
+
+    flexbox
+    
+    ejercicio de flexbox
+
+[33mcommit d335f48bd3827f7c50327a6861a523d8f6b32d6c[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 18:30:58 2020 -0500
+
+     bot esponja
+    
+    adjunto carpeta de bot esponja
+
+[33mcommit 1c4f35f164914f2a438b27477a2c05f7c1747a9b[m
+Author: luisgarces1 <72531010+luisgarces1@users.noreply.github.com>
+Date:   Wed Oct 14 18:27:25 2020 -0500
+
+    Initial commit
