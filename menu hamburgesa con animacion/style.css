@@ -9,7 +9,7 @@
 header {
     width: 100%;
     position: fixed;
-    height: 45px;
+    height: 15px;
     top: 0;
     padding: 10px 5%;
 }
@@ -17,13 +17,13 @@ header img {
     float: left;
 }
 header nav {
-    float: right;
+    float: center;
 }
 header nav .menu ul {
     /*posicion absolute para que se posicione debajo del resto del header - top medida del header*/
-    width: 100%;
+    width: 80%;
     position: absolute;
-    top: 45px;
+    top: 15px;
     right: 0;
     overflow: hidden;
     list-style: none;
