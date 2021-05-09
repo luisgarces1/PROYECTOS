@@ -3,3 +3,5 @@ exports.getData = (req, res) => {
 };
 
 
+/*clients.get('/clients', (req, res) => {
+    res.send({});*/
