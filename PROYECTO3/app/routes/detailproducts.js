@@ -1,12 +1,12 @@
 const express = require('express');
 
-const controller = require('../controllers/productos');
+const controller = require('../controllers/detailproducts');
 
 const router = express.Router();
 
-const  path = 'products';
-const  pathUnique = 'product';
-const  pathOne = '/product/.idProduct';
+const  path = 'detailproducts/.idOrder';
+const  pathUnique = 'detailproducts';
+const  pathOne = 'detailproducts/.idDetailProduct';
 
 
 router.get(
@@ -37,4 +37,3 @@ router.delete(
 
 
 module.exports = router
-
