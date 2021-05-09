@@ -4,8 +4,7 @@ const controller = require('../controllers/productos');
 
 const router = express.Router();
 
-const  path = 'items';
-
+const  path = 'productos';
 router.get(
     `/${path}`,
     controller.getData
