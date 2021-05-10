@@ -5,16 +5,16 @@ const rateLimit = require('express-rate-limit');
 const authentication = require('./authentication');
 
 const app =  express ();
+
 const apiLimiterLogin = rateLimit({
     max: 1000
 });
 
-const port = 3004
-;
+const port = 3004;
 
-
-
-
+app.use(helmet());
+app.use(bodyParser());
+app.use('/', apiLimiterLogin);
 
 const userRouters = require('../app/routes/users');
 const productsRouters = require('../app/routes/products');
