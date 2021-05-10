@@ -1,5 +1,5 @@
 exports.getData = (req, res) => {
-    res.send('ESTO VIENE DE DETAILPRODUCTS');
+    res.send('esto viene desde ORDERS');
 };
 
 exports.putData = (req, res) => {

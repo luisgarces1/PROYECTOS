@@ -6,7 +6,7 @@ const router = express.Router();
 
 const  path = 'products';
 const  pathUnique = 'product';
-const  pathOne = '/product/.idProduct';
+const  pathOne = 'product/.idProduct';
 
 
 router.get(

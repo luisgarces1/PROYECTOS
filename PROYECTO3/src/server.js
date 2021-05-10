@@ -18,7 +18,7 @@ const app =  express ();
 const userRouters = require('../app/routes/user');
 const productosRouters = require('../app/routes/products');
 const detailProductsRouters = require('../app/routes/detailproducts');
-
+const ordersRouters = require('../app/routes/orders');
 
 
 app.listen(port, () => {

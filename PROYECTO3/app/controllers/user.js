@@ -1,5 +1,5 @@
 exports.getData = (req, res) => {
-    res.send('esto viene desde RUTA');
+    res.send('esto viene desde USER');
 };
 
 exports.putData = (req, res) => {

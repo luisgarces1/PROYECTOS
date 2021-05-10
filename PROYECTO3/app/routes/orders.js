@@ -1,12 +1,12 @@
 const express = require('express');
 
-const controller = require('../controllers/user');
+const controller = require('../controllers/orders');
 
 const router = express.Router();
 
-const  path = 'users';
-const  pathUnique = 'user';
-const  pathOne = 'users/.idUser';
+const  path = 'orders';
+const  pathUnique = 'order';
+const  pathOne = '/order/.idOrder';
 
 
 router.get(
