@@ -4,21 +4,28 @@ const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const authentication = require('./authentication');
 
-
+const app =  express ();
 const apiLimiterLogin = rateLimit({
     max: 1000
 });
 
-const port = 3004;
-
-const app =  express ();
-
+const port = 3004
+;
 
 
-const userRouters = require('../app/routes/user');
-const productosRouters = require('../app/routes/products');
+
+
+
+const userRouters = require('../app/routes/users');
+const productsRouters = require('../app/routes/products');
 const detailProductsRouters = require('../app/routes/detailproducts');
 const ordersRouters = require('../app/routes/orders');
+
+
+app.use(userRouters);
+app.use(productsRouters);
+app.use(detailProductsRouters);
+app.use(ordersRouters);
 
 
 app.listen(port, () => {

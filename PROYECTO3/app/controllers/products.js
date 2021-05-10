@@ -1,8 +1,8 @@
 exports.getData = (req, res) => {
-    res.send('ESTO VIENE DE PRODUCTS');
+    res.send({ data: 'ESTO VIENE DE PRODUCTS'});
 };
 
-exports.putData = (req, res) => {
+/*exports.putData = (req, res) => {
     res.send({});
 };
 
@@ -12,4 +12,4 @@ exports.postData = (req, res) => {
 
 exports.deleteData = (req, res) => {
     res.send({});
-};
+};*/

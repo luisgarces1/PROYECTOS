@@ -14,7 +14,10 @@ router.get(
     controller.getData
 );
 
-router.get(
+
+module.exports = router
+
+/*router.get(
     `/${pathOne}`,
     controller.getData
 );
@@ -32,9 +35,9 @@ router.post(
 router.delete(
     `/${pathOne}`,
     controller.getData
-);
+);*/
 
 
 
-module.exports = router
+
 

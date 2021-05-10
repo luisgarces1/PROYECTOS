@@ -1,6 +1,6 @@
 const express = require('express');
 
-const controller = require('../controllers/user');
+const controller = require('../controllers/users');
 
 const router = express.Router();
 
@@ -13,8 +13,8 @@ router.get(
     `/${path}`,
     controller.getData
 );
-
-router.get(
+module.exports = router
+/*router.get(
     `/${pathOne}`,
     controller.getData
 );
@@ -32,9 +32,4 @@ router.post(
 router.delete(
     `/${pathOne}`,
     controller.getData
-);
-
-
-
-module.exports = router
-
+);*/
