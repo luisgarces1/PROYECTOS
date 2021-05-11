@@ -1,9 +1,9 @@
-exports.getData = (req, res) => {
-    res.send({ data: 'esto viene desde RUTA' });
-};
-
-
 /*exports.getData = (req, res) => {
+    res.send({ data: 'esto viene desde RUTA' });
+};*/
+
+
+exports.getData = (req, res) => {
     const userverified = authentication.verifyUser(req, res, usuarios);
     if (userverified) {
         res.send(usuarios);
@@ -15,7 +15,7 @@ exports.getData = (req, res) => {
 
 
 
-exports.putData = (req, res) => {
+/*exports.putData = (req, res) => {
     res.send({});
 };
 
