@@ -1,4 +1,4 @@
-const express = require('express');
+const app = require('./app');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
@@ -6,15 +6,6 @@ const authentication = require('./authentication');
 //const actions = require('./database/actions/actions');
 
 
-
-const userRouters = require('../app/routes/users');
-const productsRouters = require('../app/routes/products');
-const detailProductsRouters = require('../app/routes/detailproducts');
-const ordersRouters = require('../app/routes/orders');
-
-
-
-const app =  express ();
 
 const apiLimiterLogin = rateLimit({
     max: 1000
@@ -24,12 +15,8 @@ const port = 3004;
 
 app.use(helmet());
 app.use(bodyParser());
-app.use('/', apiLimiterLogin);
+//app.use('/', apiLimiterLogin);
 
-app.use(userRouters);
-app.use(productsRouters);
-app.use(detailProductsRouters);
-app.use(ordersRouters);
 
 app.get('/', (req, res) => {
     res.send('Bienvenidos a mi api de express');

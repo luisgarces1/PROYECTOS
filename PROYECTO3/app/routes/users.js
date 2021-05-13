@@ -13,6 +13,12 @@ router.get(
     `/${path}`,
     controller.getData
 );
+
+router.post(
+    `/${pathUnique}`,
+    controller.getData
+);
+
 module.exports = router
 /*router.get(
     `/${pathOne}`,

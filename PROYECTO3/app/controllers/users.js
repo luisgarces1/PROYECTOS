@@ -2,24 +2,27 @@
     res.send({ data: 'esto viene desde RUTA' });
 };*/
 
+const { post } = require("../routes/users");
+
 
 exports.getData = (req, res) => {
     const userverified = authentication.verifyUser(req, res, usuarios);
     if (userverified) {
         res.send(usuarios);
     } else {
-        res.send('Errror: ha ocurrido un problema con el token');
+        res.send('Error: ha ocurrido un problema con el token');
     }
     };
 
 
 
 
-/*exports.putData = (req, res) => {
-    res.send({});
+exports.getData = (req, res) => {
+    console.log (req.body)
+    res.status(200).send({mensaje:'no se que es'});
 };
 
-exports.postData = (req, res) => {
+/*exports.postData = (req, res) => {
     res.send({});
 };
 
