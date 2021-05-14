@@ -1,9 +1,12 @@
 const app = require('./app');
-const bodyParser = require('body-parser');
+
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const authentication = require('./authentication');
+
+
 //const actions = require('./database/actions/actions');
+
 
 
 
@@ -14,21 +17,22 @@ const apiLimiterLogin = rateLimit({
 const port = 3004;
 
 app.use(helmet());
-app.use(bodyParser());
+
+
+
 //app.use('/', apiLimiterLogin);
 
 
-app.get('/', (req, res) => {
+/*app.get('/', (req, res) => {
     res.send('Bienvenidos a mi api de express');
-});
+});*/
 
 app.post('/login', async (req, res) => {
     var arg = req.body;
     var user = arg.user;
     var password = arg.password;
     const usuarios = await actions.get('SELECT * FROM users WHERE userName = :user AND password = :password', { user, password })
-    var isAutenticated = usuarios.filter(userf => userf.userName === user && userf.password === password);
-    if(isAutenticated.length > 0) {
+        if(usuarios.length > 0) {
         var data = { user, password };
         var token = authentication.generateToken(data);
         res.send({

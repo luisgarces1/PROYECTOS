@@ -2,9 +2,6 @@
     res.send({ data: 'esto viene desde RUTA' });
 };*/
 
-const { post } = require("../routes/users");
-
-
 exports.getData = (req, res) => {
     const userverified = authentication.verifyUser(req, res, usuarios);
     if (userverified) {
@@ -19,7 +16,7 @@ exports.getData = (req, res) => {
 
 exports.getData = (req, res) => {
     console.log (req.body)
-    res.status(200).send({mensaje:'no se que es'});
+    res.status(200).send({mensaje:'ahi voy'});
 };
 
 /*exports.postData = (req, res) => {
