@@ -11,18 +11,16 @@ exports.getData = (req, res) => {
     }
     };
 
-
-
-
 exports.getData = (req, res) => {
     console.log (req.body)
     res.status(200).send({mensaje:'ahi voy'});
 };
 
-/*exports.postData = (req, res) => {
-    res.send({});
+exports.getData = (req, res) => {
+    res.send({mensaje:'ahi voy1'});
 };
 
-exports.deleteData = (req, res) => {
-    res.send({});
-};*/
+
+exports.getData = (req, res) => {
+    res.send({swaggerSpec});
+};

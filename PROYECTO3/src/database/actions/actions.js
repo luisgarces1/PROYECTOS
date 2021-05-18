@@ -1,5 +1,5 @@
 const sequalize = require('sequelize');
-const database = new sequalize('mysql://root:password@localhost:3306/store');
+const database = new sequalize('mysql://root:password@localhost:3306/restorand');
 
 module.exports.get = async (sentence, parameters) => {
     return await database.query(sentence, 

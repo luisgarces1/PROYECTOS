@@ -2,14 +2,14 @@ const app = require('./app');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const authentication = require('./authentication');
+const actions = require('./database/actions/actions');
 
-//const actions = require('./database/actions/actions');
+const port = 3004;
 
 const apiLimiterLogin = rateLimit({
     max: 1000
 });
-const port = 3004;
-
+app.use('/',apiLimiterLogin);
 app.use(helmet());
 
 const swaggerJsDoc = require('swagger-jsdoc');
@@ -25,12 +25,7 @@ const swaggerSpec = swaggerJsDoc(options);
 app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 
-//app.use('/', apiLimiterLogin);
 
-
-/*app.get('/', (req, res) => {
-    res.send('Bienvenidos a mi api de express');
-});*/
 
 app.post('/login', async (req, res) => {
     var arg = req.body;
