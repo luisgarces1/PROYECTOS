@@ -1,8 +1,8 @@
 const app = require('./app');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
-const authentication = require('./authentication');
-const actions = require('./database/actions/actions');
+
+
 
 const port = 3004;
 
@@ -25,26 +25,6 @@ const swaggerSpec = swaggerJsDoc(options);
 app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 
-
-
-app.post('/login', async (req, res) => {
-    var arg = req.body;
-    var user = arg.user;
-    var password = arg.password;
-    const usuarios = await actions.get('SELECT * FROM users WHERE userName = :user AND password = :password', { user, password })
-        if(usuarios.length > 0) {
-        var data = { user, password };
-        var token = authentication.generateToken(data);
-        res.send({
-            result: 'OK',
-            token
-        });
-    }else {
-        res.send({
-            result: 'ERROR'
-        });
-    }
-});
 
 
 app.listen(port, () => {
